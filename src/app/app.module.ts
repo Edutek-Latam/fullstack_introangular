@@ -9,6 +9,7 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { FormTemplateComponent } from './page/form-template/form-template.component';
 import { FormRactiveComponent } from './page/form-ractive/form-ractive.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { VerComponent } from './page/ver/ver.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     NavbarComponent,
     SidebarComponent,
     FormTemplateComponent,
-    FormRactiveComponent
+    FormRactiveComponent,
+    VerComponent
   ],
   imports: [
     BrowserModule,
